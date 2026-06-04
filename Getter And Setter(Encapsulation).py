@@ -4,14 +4,14 @@ class Employee:
         self.name = name
         self._salary = salary  # Internal/protected variable
 
-    # 1. The Getter method:-
+    # 1. The Getter method:-  (Accessing the members)
     @property
     def salary(self):
         """Retrieves the value of salary."""
         print("Fetching salary...")
         return self._salary
 
-    # 2. The Setter Method:-
+    # 2. The Setter Method:-   (Setting the values of the member function in private access specifiers)
     @salary.setter
     def salary(self, value):
         """Validates and sets the value of salary."""
